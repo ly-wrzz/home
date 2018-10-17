@@ -1,0 +1,178 @@
+.banner_top{
+	width: 100%;
+	height: 300px;
+}
+.mtk{
+	height: 230px;
+	text-align: center;
+	padding-top: 70px;
+}
+.mtk h2{
+	color: #fff;
+	line-height: 1.1;
+	font-size: 1em;
+	animation: fadeInLeft 1s;
+}
+.mtk h2 a{
+	display: inline-block;
+	color: #fff;
+	font-size: 1em;
+	line-height: 12px;
+}
+.mtk h2 a:hover{
+	border-bottom: 1px solid #fff;
+}
+.mtk h2 i{
+    margin: 2px 0.5em;
+}
+.nav{
+	animation: fadeInDown 1s;
+}
+.about{
+	margin-top: 42px;
+	animation: fadeInRight 1s;
+}
+.about_left{
+	width: 730px;
+	height: 330px;
+	padding: 0 15px;
+	overflow: hidden;
+}
+.about_rigth{
+	width: 350px;
+	height: 330px;
+	padding: 0 15px;
+	overflow: hidden;
+}
+.about_text{
+	width: 798px;
+	margin: 0 auto;
+	margin-top: 42px;
+}
+.about_text h5{
+	color: #FD9F3E;
+	font-size: 1.5em;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	text-align: center;
+}
+.about_text p{
+	text-align: center;
+	color: #A9A9A9;
+	font-size: 1em;
+	line-height: 2em;
+	padding: 0.5em 0 0;
+	font-family: 'Poppins', sans-serif;
+}
+.team{
+	padding: 6em 0;
+	background: url(../img/aa.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 84px;
+}
+.team h3{
+	color: #FFFFFF;
+	font-size: 3em;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	text-align: center;
+}
+.team_p{
+	text-align: center;
+	color: #fff;
+	font-size: 1em;
+	line-height: 2em;
+	padding: 0.5em 0 0;
+	width: 80%;
+	margin: 0 auto;
+	font-family: 'Poppins', sans-serif;
+}
+.team_content{
+	text-align: center;
+	width: 350px;
+	padding: 42px 15px 0;
+}
+.team_img{
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.team_max{
+	width: 1140px;
+	margin: 0 auto;
+}
+.team_hover{
+	position: absolute;
+	top: -150px;
+	left: 0;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.72);
+	transition: all 0.5s;
+}
+.team_img:hover .team_hover{
+	top: 0;
+}
+.team_a{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -16px;
+	margin-left: -32px;
+}
+.team_a1{
+	display: block;
+	width: 32px;
+	height: 32px;
+	background-image: url(../img/social2.png);
+	background-position: 1px 1px;
+	background-repeat: no-repeat;
+	float: left;
+}
+.team_a2{
+	margin-left: 2px;
+	display: block;
+	width: 32px;
+	height: 32px;
+	background-image: url(../img/social2.png);
+	background-position: 1px -36px;
+	background-repeat: no-repeat;
+	float: left;
+}
+.team_content h4{
+	color: #fff;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 1.3em;
+	padding-top: 1.5em;
+}
+.team_p1{
+	color: #FFFFFF;
+	font-size: 1.3em;
+	padding: 0.5em 0;
+	border-bottom: 1px solid #fff;
+	font-weight: 800;
+	margin-bottom: 1em;
+	font-family: 'Poppins', sans-serif;
+}
+.team .team_p2{
+	color: #fff;
+	font-size: 1em;
+	line-height: 2em;
+	padding: 0.5em 0 0;
+	font-family: 'Poppins', sans-serif;
+}
+.content{
+	width: 1140px;
+	margin: 84px auto;
+}
+.j_dhua{
+	opacity: 0;
+}
+.j_dhua1{
+	opacity: 0;
+}
+.j_dhua2{
+	opacity: 0;
+}

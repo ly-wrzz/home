@@ -1,0 +1,603 @@
+/**************广告位*************/
+.advertising{
+	width: 100%;
+	height: 90px;
+}
+/**************header区域*************/
+.header_move{
+	visibility: visible;
+	animation:fadeInRight 2s;
+}
+.eye{
+	animation:fadeInLeft 2s;
+}
+video{
+	object-fit:fill;
+	width: 100%;
+	height: 712px;
+	vertical-align: top;
+}
+header{
+	position: relative;
+}
+.mtk{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 712px;
+	background: rgba(0,0,0,0.5);
+	z-index: 1;
+}
+.header{
+	position: absolute;
+	top: 22%;
+	width: 100%;
+	text-align: center;
+}
+.header img{
+	vertical-align: top;
+}
+.header h3{
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 3em;
+	color: #fff;
+}
+.header_span{
+    color: #fd9f3e;
+    font-size: 0.9em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 1em;
+    display: block;
+}
+.header p{
+	color: #fff;
+	font-size: 1em;
+	width: 50%;
+	margin: 1.5em auto 3em;
+	line-height: 1.8em;
+}
+.header_a{
+	position: relative;
+	color: #fd9f3e;
+	font-size: 1em;
+	border: 2px solid #fd9f3e;
+	padding: 0.5em 1em;
+	border-radius: 4px;
+	transition: all 0.3s ease-out;
+}
+.a_hover{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #fd9f3e;
+	width: 100%;
+	height: 100%;
+	z-index: -2;
+	transform: scaleX(0);
+	transition: all 0.3s ease-out;
+}
+.header_a:hover{
+	color: #fff;
+}
+.header_a:hover .a_hover{
+	transform: scaleX(1);
+}
+.nav{
+	padding: 7px 0;
+	border-bottom: 1px solid #E4E4E4;
+	opacity: 0;
+}
+.nav_max{
+	width: 1140px;
+	margin: 5px auto 0;
+}
+.nav_max h1 a{
+	color: #fd9f3e;
+}
+.nav_max span{
+	color: #0066b2;
+}
+.nav_max h1{
+	font-size: 2.6em;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	line-height: 1.16;
+}
+.nav_max li a{
+	position: relative;
+	display: inline-block;
+	font-size: 1em;
+	padding: 10px 0;
+	margin: 0 0.8em;
+	color: #0066B2;
+	line-height: 20px;
+	cursor: pointer;
+}
+.wire{
+	position: absolute;
+	bottom: 8px;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background: #FD9F3E;
+	display: inline-block;
+	vertical-align: top;
+	transition: all 0.5s;
+}
+.nav_max>ul>li>a:hover .wire{
+	width: 100%;
+}
+.caret{
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-left: 2px;
+	vertical-align: middle;
+	border-top: 4px dashed;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+}
+.nav_01{
+	position: relative;
+}
+.menu{
+	width: 160px;
+	position: absolute;
+	top: 128%;
+	background-color: #fff;
+	padding: 0px 0;
+	border-radius: 0px;
+	border: 1px solid #E4E4E4;
+	box-shadow: none;
+	border-top: none;
+	display: none;
+}
+.menu a{
+	display: inline-block;
+	padding: 10px 0;
+	color: #0066B2;
+	margin: 0 1em;
+}
+.menu a:hover .wire{
+	width: 100%;
+}
+/************article区域***************/
+article{
+	width: 1140px;
+	margin: 0 auto;
+	margin-top: 84px;
+}
+article h2{
+	color: #0066B2;
+	font-size: 3em;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	text-align: center;
+}
+.welcome{
+	margin-top: 42px;
+}
+nav{
+	opacity: 0;
+}
+nav ul{
+	text-align: center;
+}
+nav ul li{
+	display: inline-block;
+	text-align: center;
+	font-size: 1.5em;
+	margin: 0.5em;
+	padding: 10px 15px;
+	border-bottom: 3px solid #EFEFEF;
+	color: #8A8A8A;
+	transition: 0.5s all;
+	cursor: pointer;
+}
+.orange{
+	color: #FD9F3E;
+	border-bottom: 3px solid #0066B2;
+}
+nav ul li:hover{
+	color: #FD9F3E;
+	border-bottom: 3px solid #0066B2;
+}
+.tab_head{
+	padding-top: 42px;
+	height: 408px;
+	opacity: 0;
+}
+.tab_head h4{
+	text-align: center;
+	color: #FD9F3E;
+	font-size: 2.2em;
+	font-family: 'Montserrat Subrayada', sans-serif;
+}
+.tap_p{
+	text-align: center;
+	color: #A9A9A9;
+	font-size: 1em;
+	line-height: 2em;
+	width: 80%;
+	margin: 0 auto;
+	padding: 2em 0 4em;
+}
+.tab_img1{
+	width: 350px;
+	padding: 0 15px;
+}
+.tab_img1 img{
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+}
+.tab_img1 p{
+	color: #A9A9A9;
+	font-size: 1em;
+	line-height: 2em;
+	padding: 0em 0 28px;
+	text-align: left;
+	font-family: 'Poppins', sans-serif;
+}
+.tap_a{
+	border-color: #0066B2;
+	color: #0066B2;
+}
+.tap_div{
+	background: #0066B2;
+}
+.tab_img2{
+	padding-top: 56px;
+}
+.tap_p1{
+	color: #A9A9A9;
+	font-size: 1em;
+	line-height: 2em;
+	width: 80%;
+	margin: 0 auto;
+	padding: 2em 0 4em;
+}
+.tab_text{
+	width: 730px;
+	padding: 0 15px;
+}
+.tab_text h5{
+	color: #FD9F3E;
+	font-size: 1.5em;
+	font-family: 'Montserrat Subrayada', sans-serif;
+}
+.tab_img3{
+	margin-bottom: 1em;
+}
+.tab_img3,.tab_img4 img{
+	width: 100%;
+	vertical-align: middle;
+}
+.glyphicon-menu-right:before {
+	content: "\e258";
+}
+.glyphicon {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.tab_text ul li a {
+	color: #A9A9A9;
+	font-size: 1em;
+	line-height: 2em;
+	margin: 1em 0 0;
+	display: block;
+}
+.tab_text ul li a:hover{
+	text-decoration: underline;
+}
+.hide{
+	display: none;
+}
+/*content*/
+.content{
+	margin-top: 168px;
+}
+.content_left{
+	width: 445px;
+	padding: 0 15px;
+	opacity: 0;
+}
+.content_left h4{
+	font-size: 2em;
+	color: #0066B2;
+	line-height: 1.4em;
+	font-family: 'Montserrat Subrayada', sans-serif;
+}
+.content_left p{
+	color: #A9A9A9;
+	font-size: 1em;
+	line-height: 2em;
+	padding: 0.5em 0 1em;
+	font-family: 'Poppins', sans-serif;
+}
+.content_right{
+	width: 635px;
+	padding: 0 15px;
+	opacity: 0;
+}
+.content_img img{
+	width: 100%;
+	vertical-align: middle;
+	transition: all 0.5s;
+}
+.content_img{
+	width: 25%;
+	overflow: hidden;
+}
+.content_img img:hover{
+	 transform: scale(1.1);
+}
+.content_img a{
+	cursor: pointer;
+}
+.largen{
+	z-index: 10;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.69);
+	padding-top: 10px;
+	display: none;
+}
+.close{
+	z-index: 11;
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	width: 75px;
+	height: 75px;
+	background-color: transparent;
+	cursor: pointer;
+}
+.close_01{
+	width: 1px;
+	height: 75px;
+	margin-left: 35px;
+	background-color: #fff;
+	transform: rotate(45deg);
+}
+.close_02{
+	width: 1px;
+	height: 75px;
+	background-color: #fff;
+	transform: rotate(90deg);
+}
+.close:hover{
+	opacity: .7;
+}
+.largen_content{
+	width: 880px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 15px;
+}
+.largen_content h3{
+	font-size: 3em;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	color: #fff;
+	margin-bottom: 0.5em;
+}
+.largen_content img{
+	display: block;
+	margin: 0 auto;
+}
+.largen_content p{
+	font-size: 1em;
+	padding: 30px 0;
+	color: #fff;
+	line-height: 2em;
+	width: 700px;
+	margin: 0 auto;
+	font-family: 'Poppins', sans-serif;
+}
+/***********footer区域**********/
+.contern{
+	height: 800px;
+	width: 100%;
+	background: pink;
+}
+.footer{
+	margin-top: 84px;
+	width: 100%;
+	height: 568px;
+}
+.footer_bottom .footer_top{
+	animation-delay: 0.5s;
+}
+.footer_top{
+	width: 100%;
+	height: 300px;
+	background: url('../img/fo.jpg') no-repeat top/cover;
+	overflow: hidden;
+}
+.footer_con{
+	margin: 0 auto;
+	width: 1190px;
+	overflow: hidden;
+}
+.footer_top .footer_con{
+	margin-top: 128px;
+	height: 46px;
+}
+.top_con_left{
+	float: left;
+	color: #fff;
+	font-size: 18px;
+	line-height: 36px;
+	text-align: center;
+	font-weight: bold;
+	font-family: inherit;
+	text-indent: 12px;
+	margin-right: 156px;
+	margin-left: 30px;
+}
+.top_con_right{
+	float: left;
+	overflow: hidden;
+}
+.top_con_right .right_ipt{
+	float: left;
+	margin-top: 3px;
+	margin-right: 2px;
+	width: 403px;
+	height: 37px;
+	color: #fff;
+	text-indent: 16px;
+	font-size: 14px;
+	border: 1px solid #fff;
+	background-color: transparent;
+	outline: none;
+}
+.top_con_right .right_btn{
+	border: none;
+	width: 118px;
+	height: 44px;
+	color: #fff;
+	line-height: 44px;
+	font-size: 16px;
+	text-align: center;
+	background-color: #0066B2;
+	cursor: pointer;
+	outline: none;
+	transition: all .5s;
+}
+.top_con_right .right_btn:hover{
+	background: #FD9F3E;
+}
+.footer_bottom{
+	width: 100%;
+	height: 268px;
+	background-color: #322f36;
+}
+.bottom_top{
+	height: 165px;
+	border-bottom: 1px solid #696969;
+	overflow: hidden;
+}
+.bottom_top_con{
+	margin: 0 auto;
+	width: 1140px;
+	margin-top: 66px;
+	padding-left: 30px;
+}
+.bottom_top_con li{
+	float: left;
+	width: 380px;
+}
+.bt_li_left,
+.bt_li_right{
+	float: left;
+}
+.bt_li_left{
+	color: #FD9F3E;
+	font-size: 1.2em;
+	margin: 0 5% 0 0;
+	display: inline-block;
+	line-height: 1.6em;
+	position: relative;
+	top: 1px;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.glyphicon_map_marker:before{
+	content: "\e062";
+}
+.glyphicon_phone:before {
+	content: "\e145";
+}
+.glyphicon_envelope:before {
+	content: "\2709";
+}
+.bt_li_right h6{
+	font-size: 1em;
+	color: #fff;
+	line-height: 1.4em;
+	font-weight: 500;
+	letter-spacing: 1px;
+	font-family: 'Montserrat Subrayada', sans-serif;
+}
+.bt_li_right p{
+	font-size: 1em;
+	color: #fff;
+}
+.x_link_a{
+	text-decoration: none;
+	color: #fff;
+	transition: all .5s;
+}
+.x_link_a:hover{
+	color: #0066B2;
+}
+.bottom_bottom{
+    padding: 2em 0 0 0;
+}
+.container {
+	margin: 0 auto;
+	width: 1140px;
+}
+.footer-class {
+	float: left;
+	color: #fff;
+	font-size: .9em;
+	padding-top: 0.8em;
+}
+.footer-class a {
+	color: #0066B2;
+	text-decoration: none;
+}
+.social-ic {
+	float: right;
+}
+.social-ic li {
+	display: inline-block;
+}
+.social-ic li a i {
+	width: 40px;
+	height: 40px;
+	display: block;
+	background: #000 url(../img/img-sprite.png)no-repeat 3px 6px;
+	margin: 0 0.5em;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+.social-ic li a i.ic {
+	background: #000 url(../img/img-sprite.png)no-repeat -72px 6px;
+}
+.social-ic li a i.ic1 {
+	background:#000 url(../img/img-sprite.png)no-repeat -143px 6px;
+}
+.social-ic li a i.ic2 {
+	background:#000 url(../img/img-sprite.png)no-repeat -226px 6px;
+}
+.social-ic li a i.ic3 {
+	background: #000 url(../img/img-sprite.png)no-repeat -303px 6px;
+}
+.social-ic li a i:hover {
+	background-color: #FD9F3E;
+}
+.fadeInDown{
+	opacity: 0;
+}
+.fadeInUp{
+	opacity: 0;
+}
